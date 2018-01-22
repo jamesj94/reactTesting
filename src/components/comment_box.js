@@ -25,11 +25,11 @@ render(){
             <h4>Add a comment</h4>
             <textarea
               value={this.state.comment}
-              onChange={this.handleChange.bind(this)}/>
+              onChange={this.handleChange.bind(this)} />
             <div>
               <button action="submit">Submit Comment</button>
-            </div> 
-          </form>
+            </div>
+        </form>
     );
   }
 }
